@@ -5,16 +5,17 @@
 web/app/plugins/*
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
-web/app/themes/twentytwentyfive/
 web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
 web/app/cache/*
+web/app/themes/*
+!web/app/themes/mara
 
 # WordPress
 web/wp
 web/.htaccess
-web/app/themes
+web/app/object-cache.php
 
 # Logs
 *.log
