@@ -66,7 +66,8 @@
     "plural_capability_name": "posts",
     "supports": [
         "title",
-        "editor"
+        "editor",
+        "revisions"
     ],
     "taxonomies": "",
     "has_archive": false,
@@ -83,5 +84,5 @@
     "delete_with_user": false,
     "register_meta_box_cb": "",
     "enter_title_here": "",
-    "modified": 1739834218
+    "modified": 1739837291
 }
