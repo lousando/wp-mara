@@ -53,7 +53,8 @@
     "wpackagist-plugin/performance-lab": "^3.5",
     "wpackagist-plugin/dominant-color-images": "^1.1",
     "wpackagist-plugin/ninja-forms": "^3.9",
-    "wpackagist-plugin/advanced-custom-fields": "^6.3"
+    "wpackagist-plugin/advanced-custom-fields": "^6.3",
+    "wpackagist-plugin/wp-external-links": "^2.62"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",

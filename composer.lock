@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "144faa1862e742a637aee2b4c1bd2048",
+    "content-hash": "21d9caec10fba79b4b52b0908c714c07",
     "packages": [
         {
             "name": "composer/installers",
@@ -1559,6 +1559,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/webp-uploads/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-external-links",
+            "version": "2.62",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-external-links/",
+                "reference": "tags/2.62"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-external-links.2.62.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-external-links/"
         },
         {
             "name": "wpackagist-plugin/wp-mail-logging",
