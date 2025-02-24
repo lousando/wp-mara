@@ -46,7 +46,6 @@
     "wpackagist-plugin/litespeed-cache": "^6.5",
     "wpackagist-plugin/loginizer": "^1.9",
     "wpackagist-plugin/webp-uploads": "^2.2",
-    "wpackagist-plugin/wp-mail-logging": "^1.13",
     "wpackagist-plugin/elementor": "^3.25",
     "wpackagist-theme/hello-elementor": "^3.1",
     "lukasbesch/bedrock-plugin-disabler": "^1.4",
@@ -54,7 +53,9 @@
     "wpackagist-plugin/dominant-color-images": "^1.1",
     "wpackagist-plugin/ninja-forms": "^3.9",
     "wpackagist-plugin/advanced-custom-fields": "^6.3",
-    "wpackagist-plugin/wp-external-links": "^2.62"
+    "wpackagist-plugin/wp-external-links": "^2.62",
+    "wpackagist-plugin/user-switching": "^1.9",
+    "wpackagist-plugin/site-mailer": "^1.2"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",

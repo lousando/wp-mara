@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "21d9caec10fba79b4b52b0908c714c07",
+    "content-hash": "0b4c2ac717c6cab59258fd10e1083ff7",
     "packages": [
         {
             "name": "composer/installers",
@@ -1543,6 +1543,42 @@
             "homepage": "https://wordpress.org/plugins/seo-by-rank-math/"
         },
         {
+            "name": "wpackagist-plugin/site-mailer",
+            "version": "1.2.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/site-mailer/",
+                "reference": "tags/1.2.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/site-mailer.1.2.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/site-mailer/"
+        },
+        {
+            "name": "wpackagist-plugin/user-switching",
+            "version": "1.9.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/user-switching/",
+                "reference": "tags/1.9.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.9.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/user-switching/"
+        },
+        {
             "name": "wpackagist-plugin/webp-uploads",
             "version": "2.5.0",
             "source": {
@@ -1577,24 +1613,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-external-links/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-mail-logging",
-            "version": "1.14.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-mail-logging/",
-                "reference": "tags/1.14.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-logging.1.14.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-mail-logging/"
         },
         {
             "name": "wpackagist-theme/hello-elementor",
